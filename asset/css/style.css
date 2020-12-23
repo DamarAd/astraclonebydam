@@ -1,13 +1,13 @@
 html {
     scroll-behavior: smooth;
+    /* overflow: auto; */
 }
 
 body {
-    padding: 0;
-    margin: 0;
     font-family: Poppins;
     font-size: 0.9em;
     letter-spacing: 1px;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -105,10 +105,6 @@ body {
 	opacity: .4;
     border-radius: 2%;
 }
-
-/* .about {
-    background-color: brown;
-} */
 
 .about h3 {
     font-size: 2em;
@@ -252,6 +248,11 @@ a.wa {
 
 
 @media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     .navbar {
         padding: 15px 15px;
     }
@@ -259,7 +260,12 @@ a.wa {
     .navbar-collapse {
         padding: 15px 0;
     }
-	
+
+    .wrap {
+        margin: 0px auto;
+        transform: rotate(-30deg) skew(25deg) scale(.5);
+    }
+
     .footer h3 {
         padding-top: 25px;
     }
