@@ -260,6 +260,10 @@ a.wa {
         padding: 15px 0;
     }
 
+.wrap {
+	margin: 0 500px;
+	}
+	
     .footer h3 {
         padding-top: 25px;
     }
