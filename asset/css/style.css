@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    padding: 15px 0;
+    background-color: #063372;
+}
+
+.nav-item a {
+    color: white;
+    font-size: 15px;
+    margin: 0 8px;
+}
+
+.nav-item a:hover {
+    color: #b1d1f3;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding-left: 20px;
+    line-height: 3em;
+}
+
+.dropdown-menu a:hover{
+    color: black;
+}
+
+.banner-header {
+    padding: 12em 1em 0 0;
+    background-color: #09387a;
+}
+
+.banner-header h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-header p {
+    color: #b1d1f3;
+    text-align: justify;
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+
+.banner-header a {
+    padding: 10px 30px;
+    background-color: white;
+    color: #09387a;
+    border-radius: 25px;
+    margin-bottom: 6em;
+    font-size: 0.9em;
+}
+
+.banner-header a:hover {
+    padding: 10px 30px;
+    background-color: #09387a;
+    color: white ;
+    border-radius: 25px;
+    border-color: white;
+}
+
+.wrap {
+    width: 288px;
+	height: 362.4px;
+    position: relative;
+    background: hsla(0, 0%, 98%, 0.26);
+    transform: rotate(-30deg) skew(25deg) scale(.7);
+    transition: 0.5s;
+    border-radius: 2%;
+    margin: 2em auto 0 auto;
+}
+
+.wrap img {
+    position: absolute;
+    transition: 0.5s;
+}
+
+.wrap img:nth-child(3) {
+	transform: translate(120px, -120px);
+    opacity: 1;
+    border-radius: 2%;
+}
+
+.wrap img:nth-child(2) {
+	transform: translate(80px, -80px);
+    opacity: .8;    
+    border-radius: 2%;
+}
+
+.wrap img:nth-child(1) {
+	transform: translate(40px, -40px);
+	opacity: .4;
+    border-radius: 2%;
+}
+
+/* .about {
+    background-color: brown;
+} */
+
+.about h3 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.box h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box {
+    background-color: #f8f9fa;
+    color: #09387a;
+}
+
+.box p {
+    color: #959799;
+    font-size: 0.9em;
+}
+
+.box:hover {
+    background-color: #09387a;
+    color: white;
+}
+
+.box:hover.box p {
+    color: white;
+    font-size: 0.9em;
+}
+
+.fa-lightbulb {
+    font-size: 30px;
+}
+
+.fa-laptop {
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #17181b;
+}
+
+.footer h3 {
+    text-transform: none;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    padding-top: 4em;
+    padding-bottom: 5px;
+}
+
+.footer-text {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer p, .footer a {
+    color: #727377;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-socmed a {
+    color: white;
+    text-justify: auto;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 0 2px 6px 2px;
+}
+
+a.fb {
+    padding: 5px 12px;
+    background-color: #3b5998;
+    color: white;
+    border-radius: 25px;
+}
+
+a.tw {
+    padding: 5px 12px;
+    background-color: #1da1f2;
+    color: white;
+    border-radius: 25px;
+}
+
+a.ig {
+    padding: 5px 12px;
+    background-color: #ca0866;
+    color: white;
+    border-radius: 25px;
+}
+
+a.yt {
+    padding: 5px 12px;
+    background-color: #df0000;
+    color: white;
+    border-radius: 25px;
+}
+
+a.wa {
+    padding: 5px 12px;
+    background-color: #24cc63;
+    color: white;
+    border-radius: 25px;
+}
+
+.footer-socmed a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.397),0 17px 50px 0 rgb(0, 0, 0);
+}
+
+.cr {
+    background-color: #1c1d21;
+    letter-spacing: 1px;
+    line-height: 1em;
+}
+
+.cr p {
+    color: #999;
+    margin-top: 14px;
+    font-size: 0.9em;
+}
+
+.toTop {
+    position: fixed;
+    bottom: 14px;
+    right: 2%;
+    color: #09387a;
+    font-size: 36px;
+}
+
+
+
+@media (max-width: 600px) {
+    .navbar {
+        padding: 15px 15px;
+    }
+
+    .navbar-collapse {
+        padding: 15px 0;
+    }
+
+    .footer h3 {
+        padding-top: 25px;
+    }
+
+}
