@@ -1,6 +1,8 @@
+
+/* home page */
+
 html {
     scroll-behavior: smooth;
-    /* overflow: auto; */
 }
 
 body {
@@ -245,9 +247,69 @@ a.wa {
     font-size: 36px;
 }
 
+/* end home page */
+
+
+/* contact page */
+
+.contact-title span {
+    font-size: 0.9em;
+    color: #6aa9d6;
+    font-weight: 700;
+}
+
+.contact-title h3 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.contact p {
+	color: #495057;
+}
+
+.contact-form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.contact-form .form-control {
+    padding: 1em;
+	color: #495057;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+}
+
+.contact-form label {
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #333;
+	font-size: 0.9em;
+}
+
+.contact-form button.btn {
+	background: #181a1d;
+    margin-top: 10px;
+    padding: 10px 30px;
+	letter-spacing: 1px;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: 500;
+}
+
+.contact-form button.btn:hover {
+    background-color: #0652dd;
+    border-color: #0652dd; 
+}
+
+/* end contact page */
+
 
 
 @media (max-width: 600px) {
+
+    /* home page */
 
     body {
         overflow-x: hidden;
@@ -292,4 +354,24 @@ a.wa {
         padding-top: 25px;
     }
 
+    /* end home page */
+
+
+    /* contact page */
+
+    .contact {
+        padding-top: 5em;
+    }
+
+    .contact p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .map {
+        margin-bottom: 50px;
+    }
+
+    /* end contact page */
+    
 }
